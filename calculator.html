@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="calculator.css" />
+</head>
+
+<title>Synthesis calculator - solids and liquids</title>
+
+<body>
+
+<table>
+    <tr>
+        <th class="title" colspan="10">Synthesis calculator - solids and liquids</th>
+    </tr>
+    <tr>
+        <th class="headings">Material</th>
+        <th class="headings">Name</th>
+        <th class="headings">supplier & batch n°</th>
+        <th class="headings">MW.</th>
+        <th class="headings">Purity / w%</th>
+        <th class="headings">Weight (g)</th>
+        <th class="headings">Volume (mL)</th>
+        <th class="headings">Moles (mol)</th>
+        <th class="headings">Equiv.</th>
+        <th class="headings">ensity (g/mL)</th>
+    </tr>
+
+    <tr>
+        <td class="data">Reference compound</td>
+        <td class="data"><input type="text" class="inputTxt" value="" /></td>
+        <td class="data"><input type="text" class="inputTxt" value="" /></td>
+        <td class="data"><input type="text" class="inputTxt" id="ip_mw_1" value="112.06" onkeyup="calculation();"></td>
+        <td class="data"><input type="text" class="inputTxt" id="ip_p_1" value="99.00" onkeyup="calculation();"></td>
+        <td class="data"><input type="text" class="inputTxt" id="ip_w_1" value="50.50" onkeyup="calculation();"></td>
+        <td class="data"><span id="output_1"></span></td>
+        <td class="data"><span id="output_2"></span></td>
+        <td class="data">1.00</td>
+        <td class="data"><input type="text" class="inputTxt" id="ip_d_1" value="0.900" onkeyup="calculation();"></td>
+    </tr>
+
+    <tr>
+        <td class="data">Compound 2</td>
+        <td class="data"><input type="text" class="inputTxt" value="" /></td>
+        <td class="data"><input type="text" class="inputTxt" value="" /></td>
+        <td class="data"><input type="text" class="inputTxt" id="ip_mw_2" value="200.50" onkeyup="calculation();"></td>
+        <td class="data"><input type="text" class="inputTxt" id="ip_p_2" value="99.00" onkeyup="calculation();"></td>
+        <td class="data"><span id="output_3"></span></td>
+        <td class="data"><span id="output_4"></span></td>
+        <td class="data"><span id="output_5"></span></td>
+        <td class="data"><input type="text" class="inputTxt" id="ip_e_2" value="1.20" onkeyup="calculation();"></td>
+        <td class="data"><input type="text" class="inputTxt" id="ip_d_2" value="0.900" onkeyup="calculation();"></td>
+    </tr>
+
+    <tr>
+        <td class="data">Compound 3</td>
+        <td class="data"><input type="text" class="inputTxt" value="" /></td>
+        <td class="data"><input type="text" class="inputTxt" value="" /></td>
+        <td class="data"><input type="text" class="inputTxt" id="ip_mw_3" value="150.20" onkeyup="calculation();"></td>
+        <td class="data"><input type="text" class="inputTxt" id="ip_p_3" value="70.00" onkeyup="calculation();"></td>
+        <td class="data"><span id="output_6"></span></td>
+        <td class="data"><span id="output_7"></span></td>
+        <td class="data"><span id="output_8"></span></td>
+        <td class="data"><input type="text" class="inputTxt" id="ip_e_3" value="0.80" onkeyup="calculation();"></td>
+        <td class="data"><input type="text" class="inputTxt" id="ip_d_3" value="0.900" onkeyup="calculation();"></td>
+    </tr>
+</table>
+
+</body>
+
+<script type="text/javascript" src="calculator.js"></script>
+
+</html>

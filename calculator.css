@@ -1,0 +1,36 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #cccccc;
+  }
+  
+  td, th {
+    border: 2px solid #000000;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+  .title {
+    color: brown;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .headings{
+    background-color: #cccccc;  
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .data{
+    background-color: #cccccc;  
+    font-size: 14px;
+  }
+
+  input[type=text] {
+    width: 100%;
+    padding: 8px 0px;
+    text-align: center;
+}
